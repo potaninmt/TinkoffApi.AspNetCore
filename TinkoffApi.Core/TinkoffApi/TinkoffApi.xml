@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TinkoffApi</name>
+    </assembly>
+    <members>
+        <member name="M:TinkoffApi.Controllers.TinkoffController.GetStocksAsync">
+            <summary>
+            Возвращает список всех стоков с описанием
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TinkoffApi.Controllers.TinkoffController.GetStocksRusAsync">
+            <summary>
+            Возвращает список российских стоков с описанием
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TinkoffApi.Controllers.TinkoffController.PlaceMarketOrderAsync(TinkoffApi.Data.Models.Body.PlaceMarkerBody,System.String,System.Int32,System.Int32)">
+            <summary>
+            Новый ордер
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TinkoffApi.Controllers.TinkoffController.GetPortfolioCurrency(System.Int32)">
+            <summary>
+            Возвращает портфолио по заданной валюте
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TinkoffApi.Controllers.TinkoffController.CandleSubscribe(System.String)">
+            <summary>
+            Подписывается на обновления свечей
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TinkoffApi.Controllers.TinkoffController.GetPortfolio">
+            <summary>
+            Возвращает список активных акций(ордеров)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TinkoffApi.Controllers.TinkoffController.GetCandlesHistory(System.String,System.String,System.String,Tinkoff.Trading.OpenApi.Models.CandleInterval)">
+            <summary>
+            Возвращает историю свечей по figi
+            </summary>
+            <param name="figi"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="candleInterval"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
